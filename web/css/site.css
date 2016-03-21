@@ -1,0 +1,13 @@
+.input-group {
+    width: 100%;
+    position: relative;
+    display: table;
+    border-collapse: separate;
+}
+.popular-post time {
+    padding-right: 10px;
+}
+
+.alert {
+    top: 100px !important;
+}
