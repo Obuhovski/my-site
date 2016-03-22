@@ -30,6 +30,11 @@ class SiteController extends Controller
 
     public function actionIndex()
     {
+        return $this->redirect(['/blog']);
+    }
+
+    public function actionGenerateSitemap()
+    {
         $sitemap = new Sitemap(Yii::getAlias('@app/web'). '/sitemap.xml');
 
         $posts = Post::findAll(['status' => 1]);
@@ -37,9 +42,6 @@ class SiteController extends Controller
             $sitemap->addItem(Url::to(['/blog/post/view','slug' => $post->slug],true),time(),Sitemap::DAILY);
         }
         $sitemap->write();
-        return $this->redirect(['/blog']);
-        //return Yii::$app->response->redirect('/blog',302,false);
-        return $this->render('index');
     }
 
     public function actionAbout()
