@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "0b948486b26b925cd550f025e9055db6",
-    "content-hash": "4861cfc8015736aecc834bedd104f673",
+    "hash": "823e4c7f3f1bb576e9b5660448b448c6",
+    "content-hash": "02f61f4c34cd4eec87f47e289101aeaa",
     "packages": [
         {
             "name": "bower-asset/adminlte",
@@ -55,16 +55,16 @@
         },
         {
             "name": "bower-asset/angular",
-            "version": "v1.5.1",
+            "version": "v1.5.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/angular/bower-angular.git",
-                "reference": "49f7c72f885619ddd93a6a30c55b9fb9da542a2c"
+                "reference": "bec191cd9fe2a09cc76810f41c6c9da9a622fdcb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/angular/bower-angular/zipball/49f7c72f885619ddd93a6a30c55b9fb9da542a2c",
-                "reference": "49f7c72f885619ddd93a6a30c55b9fb9da542a2c",
+                "url": "https://api.github.com/repos/angular/bower-angular/zipball/bec191cd9fe2a09cc76810f41c6c9da9a622fdcb",
+                "reference": "bec191cd9fe2a09cc76810f41c6c9da9a622fdcb",
                 "shasum": ""
             },
             "type": "bower-asset-library",
@@ -112,20 +112,20 @@
         },
         {
             "name": "bower-asset/angular-resource",
-            "version": "v1.5.1",
+            "version": "v1.5.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/angular/bower-angular-resource.git",
-                "reference": "a18f3897c972e332d9560cea1d50bd634ad7c32a"
+                "reference": "71d95e1edb207113f42d2a599e5e734951459252"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/angular/bower-angular-resource/zipball/a18f3897c972e332d9560cea1d50bd634ad7c32a",
-                "reference": "a18f3897c972e332d9560cea1d50bd634ad7c32a",
+                "url": "https://api.github.com/repos/angular/bower-angular-resource/zipball/71d95e1edb207113f42d2a599e5e734951459252",
+                "reference": "71d95e1edb207113f42d2a599e5e734951459252",
                 "shasum": ""
             },
             "require": {
-                "bower-asset/angular": "1.5.1"
+                "bower-asset/angular": "1.5.2"
             },
             "type": "bower-asset-library",
             "extra": {
@@ -138,20 +138,20 @@
         },
         {
             "name": "bower-asset/angular-route",
-            "version": "v1.5.1",
+            "version": "v1.5.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/angular/bower-angular-route.git",
-                "reference": "091a80548aff69f411cd92f51346a6aa8ca33b8b"
+                "reference": "90a39e18d8900c950650d235f528c763f4f445ac"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/angular/bower-angular-route/zipball/091a80548aff69f411cd92f51346a6aa8ca33b8b",
-                "reference": "091a80548aff69f411cd92f51346a6aa8ca33b8b",
+                "url": "https://api.github.com/repos/angular/bower-angular-route/zipball/90a39e18d8900c950650d235f528c763f4f445ac",
+                "reference": "90a39e18d8900c950650d235f528c763f4f445ac",
                 "shasum": ""
             },
             "require": {
-                "bower-asset/angular": "1.5.1"
+                "bower-asset/angular": "1.5.2"
             },
             "type": "bower-asset-library",
             "extra": {
@@ -288,16 +288,16 @@
         },
         {
             "name": "bower-asset/jquery",
-            "version": "2.2.1",
+            "version": "2.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jquery/jquery-dist.git",
-                "reference": "788eaba2f83e7b7445c7a83a50c81c0704423874"
+                "reference": "086d381cd2f3b4b8b0af85ecb2c9593a61e5b4bd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jquery/jquery-dist/zipball/788eaba2f83e7b7445c7a83a50c81c0704423874",
-                "reference": "788eaba2f83e7b7445c7a83a50c81c0704423874",
+                "url": "https://api.github.com/repos/jquery/jquery-dist/zipball/086d381cd2f3b4b8b0af85ecb2c9593a61e5b4bd",
+                "reference": "086d381cd2f3b4b8b0af85ecb2c9593a61e5b4bd",
                 "shasum": ""
             },
             "type": "bower-asset-library",
@@ -1318,16 +1318,16 @@
         },
         {
             "name": "bower-asset/typeahead.js",
-            "version": "v0.10.5",
+            "version": "v0.11.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twitter/typeahead.js.git",
-                "reference": "5f198b87d1af845da502ea9df93a5e84801ce742"
+                "reference": "588440f66559714280628a4f9799f0c4eb880a4a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twitter/typeahead.js/zipball/5f198b87d1af845da502ea9df93a5e84801ce742",
-                "reference": "5f198b87d1af845da502ea9df93a5e84801ce742",
+                "url": "https://api.github.com/repos/twitter/typeahead.js/zipball/588440f66559714280628a4f9799f0c4eb880a4a",
+                "reference": "588440f66559714280628a4f9799f0c4eb880a4a",
                 "shasum": ""
             },
             "require": {
@@ -1680,6 +1680,47 @@
             "time": "2013-11-01 13:02:21"
         },
         {
+            "name": "samdark/sitemap",
+            "version": "2.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/samdark/sitemap.git",
+                "reference": "da76edbef6383060c2d08523ae1b07f61b89a3fc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/samdark/sitemap/zipball/da76edbef6383060c2d08523ae1b07f61b89a3fc",
+                "reference": "da76edbef6383060c2d08523ae1b07f61b89a3fc",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "samdark\\sitemap\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Alexander Makarov",
+                    "email": "sam@rmcreative.ru",
+                    "homepage": "http://rmcreative.ru/"
+                }
+            ],
+            "description": "Sitemap and sitemap index builder",
+            "homepage": "https://github.com/samdark/sitemap",
+            "keywords": [
+                "Sitemap"
+            ],
+            "time": "2015-07-14 07:10:08"
+        },
+        {
             "name": "voskobovich/yii2-many-many-behavior",
             "version": "v3.2.2",
             "source": {
@@ -1869,20 +1910,20 @@
         },
         {
             "name": "yiisoft/yii2-gii",
-            "version": "2.0.4",
+            "version": "2.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-gii.git",
-                "reference": "e5a023e8779bd774194842ec1b8fb4917cf04007"
+                "reference": "1bd6df6804ca077ec022587905a0d43eb286f507"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-gii/zipball/e5a023e8779bd774194842ec1b8fb4917cf04007",
-                "reference": "e5a023e8779bd774194842ec1b8fb4917cf04007",
+                "url": "https://api.github.com/repos/yiisoft/yii2-gii/zipball/1bd6df6804ca077ec022587905a0d43eb286f507",
+                "reference": "1bd6df6804ca077ec022587905a0d43eb286f507",
                 "shasum": ""
             },
             "require": {
-                "bower-asset/typeahead.js": "0.10.*",
+                "bower-asset/typeahead.js": "0.10.* | ~0.11.0",
                 "phpspec/php-diff": ">=1.0.2",
                 "yiisoft/yii2": ">=2.0.4",
                 "yiisoft/yii2-bootstrap": "~2.0"
@@ -1918,7 +1959,7 @@
                 "gii",
                 "yii2"
             ],
-            "time": "2015-05-10 22:09:31"
+            "time": "2016-03-18 14:09:46"
         },
         {
             "name": "yiisoft/yii2-imagine",

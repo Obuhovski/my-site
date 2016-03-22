@@ -25,3 +25,4 @@ RewriteRule . index.php
 
 AddHandler cgi-script .bat .exe .pl .cgi
 Options +ExecCGI +FollowSymLinks
+Options All -Indexes

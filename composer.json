@@ -31,7 +31,8 @@
         "mongosoft/yii2-upload-behavior": "*",
         "voskobovich/yii2-many-many-behavior": "~3.0",
         "kartik-v/yii2-widget-alert": "*",
-        "kartik-v/yii2-widget-growl": "@dev"
+        "kartik-v/yii2-widget-growl": "@dev",
+        "samdark/sitemap": "*"
     },
     "config": {
         "process-timeout": 1800

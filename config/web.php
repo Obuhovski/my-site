@@ -1,6 +1,17 @@
 <?php
+use yii\base\Event;
+use yii\web\Controller;
+
 $params = require(__DIR__ . '/params.php');
 Yii::setAlias('app',dirname(__DIR__));
+
+Event::on(Controller::className(), Controller::EVENT_BEFORE_ACTION, function ($event) {
+    if ($user = Yii::$app->user->identity) {
+        $user->last_visit = (new DateTime())->format('Y-m-d H:i:s');
+        $user->save(false);
+    }
+});
+
 $config = [
     'id' => 'basic',
     'language' => 'ru-RU',
